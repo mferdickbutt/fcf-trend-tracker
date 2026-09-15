@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Free Cash Flow Trend Tracker — Northwind Cloud, Inc.</title>
+  <meta name="description" content="Static first-paint FCF tracker: OCF, capex, FCF, FCF margin, MoM change, cumulative FCF, and target comparison.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip" href="#monthly-table">Skip to monthly table</a>
+  <header>
+    <h1>Free Cash Flow Trend Tracker</h1>
+    <p class="lede">Northwind Cloud, Inc. · USD millions ($M) · 18 months (2025-04–2026-09)</p>
+  </header>
+
+  <section class="metrics" aria-label="FCF summary metrics">
+    <article class="metric">
+      <h2>Operating cash flow (OCF)</h2>
+      <div class="value">$78.6M</div>
+      <div class="sub">Latest month 2026-09</div>
+    </article>
+    <article class="metric">
+      <h2>Capex</h2>
+      <div class="value">$21.3M</div>
+      <div class="sub">Positive outflow (spend)</div>
+    </article>
+    <article class="metric">
+      <h2>Free cash flow (FCF)</h2>
+      <div class="value">$57.3M</div>
+      <div class="sub">FCF = OCF − |capex|</div>
+    </article>
+    <article class="metric">
+      <h2>FCF margin</h2>
+      <div class="value">12.5%</div>
+      <div class="sub">FCF / revenue</div>
+    </article>
+    <article class="metric">
+      <h2>MoM change on FCF</h2>
+      <div class="value up">+$2.8M</div>
+      <div class="sub">+5.1% vs prior month</div>
+    </article>
+    <article class="metric">
+      <h2>MoM change on margin</h2>
+      <div class="value up">+0.2 pts</div>
+      <div class="sub">Percentage-point change</div>
+    </article>
+    <article class="metric">
+      <h2>Cumulative FCF</h2>
+      <div class="value">$719.9M</div>
+      <div class="sub">Sum of monthly FCF over the series</div>
+    </article>
+    <article class="metric met">
+      <h2>Target comparison</h2>
+      <div class="value">Above target +$17.3M</div>
+      <div class="sub">FCF target $40.0M · margin Above target +2.5 pts</div>
+    </article>
+  </section>
+
+  <h2 class="section">Monthly FCF trend</h2>
+  <div class="bars" aria-hidden="true"><div class="bar below" style="height:30px" title="2025-04 FCF $24.0M"></div><div class="bar below" style="height:37px" title="2025-05 FCF $29.3M"></div><div class="bar below" style="height:36px" title="2025-06 FCF $28.6M"></div><div class="bar below" style="height:42px" title="2025-07 FCF $33.2M"></div><div class="bar below" style="height:42px" title="2025-08 FCF $33.6M"></div><div class="bar below" style="height:46px" title="2025-09 FCF $37.0M"></div><div class="bar below" style="height:17px" title="2025-10 FCF $13.6M"></div><div class="bar" style="height:56px" title="2025-11 FCF $44.8M"></div><div class="bar" style="height:65px" title="2025-12 FCF $51.5M"></div><div class="bar below" style="height:44px" title="2026-01 FCF $34.9M"></div><div class="bar below" style="height:46px" title="2026-02 FCF $36.8M"></div><div class="bar" style="height:54px" title="2026-03 FCF $42.8M"></div><div class="bar" style="height:56px" title="2026-04 FCF $44.8M"></div><div class="bar" style="height:65px" title="2026-05 FCF $52.0M"></div><div class="bar" style="height:62px" title="2026-06 FCF $49.3M"></div><div class="bar" style="height:65px" title="2026-07 FCF $51.9M"></div><div class="bar" style="height:68px" title="2026-08 FCF $54.5M"></div><div class="bar" style="height:72px" title="2026-09 FCF $57.3M"></div></div>
+
+  <div class="table-wrap">
+    <table id="monthly-table">
+      <caption>Monthly OCF, capex, FCF, FCF margin, MoM change, cumulative FCF, and target comparison</caption>
+      <thead>
+        <tr>
+          <th scope="col">Month</th>
+          <th scope="col">OCF</th>
+          <th scope="col">Capex</th>
+          <th scope="col">FCF</th>
+          <th scope="col">FCF margin</th>
+          <th scope="col">MoM FCF</th>
+          <th scope="col">MoM margin</th>
+          <th scope="col">Cumulative FCF</th>
+          <th scope="col">vs FCF target</th>
+        </tr>
+      </thead>
+      <tbody>
+<tr data-month="2025-04"><td>2025-04</td><td>$42.0</td><td>$18.0</td><td>$24.0</td><td>7.7%</td><td class="">—</td><td class="">—</td><td>$24.0</td><td class="miss">Missed −$16.0M</td></tr>
+<tr data-month="2025-05"><td>2025-05</td><td>$45.5</td><td>$16.2</td><td>$29.3</td><td>9.2%</td><td class="up">+$5.3</td><td class="up">+1.5 pts</td><td>$53.3</td><td class="miss">Missed −$10.7M</td></tr>
+<tr data-month="2025-06"><td>2025-06</td><td>$51.0</td><td>$22.4</td><td>$28.6</td><td>8.4%</td><td class="down">−$0.7</td><td class="down">−0.8 pts</td><td>$81.9</td><td class="miss">Missed −$11.4M</td></tr>
+<tr data-month="2025-07"><td>2025-07</td><td>$48.2</td><td>$15.0</td><td>$33.2</td><td>9.9%</td><td class="up">+$4.6</td><td class="up">+1.5 pts</td><td>$115.1</td><td class="miss">Missed −$6.8M</td></tr>
+<tr data-month="2025-08"><td>2025-08</td><td>$53.1</td><td>$19.5</td><td>$33.6</td><td>9.6%</td><td class="up">+$0.4</td><td class="down">−0.3 pts</td><td>$148.7</td><td class="miss">Missed −$6.4M</td></tr>
+<tr data-month="2025-09"><td>2025-09</td><td>$58.0</td><td>$21.0</td><td>$37.0</td><td>10.1%</td><td class="up">+$3.4</td><td class="up">+0.5 pts</td><td>$185.7</td><td class="miss">Missed −$3.0M</td></tr>
+<tr data-month="2025-10"><td>2025-10</td><td>$55.4</td><td>$41.8</td><td>$13.6</td><td>3.8%</td><td class="down">−$23.4</td><td class="down">−6.4 pts</td><td>$199.3</td><td class="miss">Missed −$26.4M</td></tr>
+<tr data-month="2025-11"><td>2025-11</td><td>$62.0</td><td>$17.2</td><td>$44.8</td><td>11.8%</td><td class="up">+$31.2</td><td class="up">+8.0 pts</td><td>$244.1</td><td class="met">Met +$4.8M</td></tr>
+<tr data-month="2025-12"><td>2025-12</td><td>$71.5</td><td>$20.0</td><td>$51.5</td><td>12.3%</td><td class="up">+$6.7</td><td class="up">+0.5 pts</td><td>$295.6</td><td class="met">Met +$11.5M</td></tr>
+<tr data-month="2026-01"><td>2026-01</td><td>$49.0</td><td>$14.1</td><td>$34.9</td><td>10.3%</td><td class="down">−$16.6</td><td class="down">−2.0 pts</td><td>$330.5</td><td class="miss">Missed −$5.1M</td></tr>
+<tr data-month="2026-02"><td>2026-02</td><td>$52.3</td><td>$15.5</td><td>$36.8</td><td>10.6%</td><td class="up">+$1.9</td><td class="up">+0.3 pts</td><td>$367.3</td><td class="miss">Missed −$3.2M</td></tr>
+<tr data-month="2026-03"><td>2026-03</td><td>$60.8</td><td>$18.0</td><td>$42.8</td><td>11.4%</td><td class="up">+$6.0</td><td class="up">+0.8 pts</td><td>$410.1</td><td class="met">Met +$2.8M</td></tr>
+<tr data-month="2026-04"><td>2026-04</td><td>$64.2</td><td>$19.4</td><td>$44.8</td><td>11.5%</td><td class="up">+$2.0</td><td class="up">+0.1 pts</td><td>$454.9</td><td class="met">Met +$4.8M</td></tr>
+<tr data-month="2026-05"><td>2026-05</td><td>$68.0</td><td>$16.0</td><td>$52.0</td><td>12.8%</td><td class="up">+$7.2</td><td class="up">+1.4 pts</td><td>$506.9</td><td class="met">Met +$12.0M</td></tr>
+<tr data-month="2026-06"><td>2026-06</td><td>$72.4</td><td>$23.1</td><td>$49.3</td><td>11.5%</td><td class="down">−$2.7</td><td class="down">−1.4 pts</td><td>$556.2</td><td class="met">Met +$9.3M</td></tr>
+<tr data-month="2026-07"><td>2026-07</td><td>$70.1</td><td>$18.2</td><td>$51.9</td><td>12.2%</td><td class="up">+$2.6</td><td class="up">+0.7 pts</td><td>$608.1</td><td class="met">Met +$11.9M</td></tr>
+<tr data-month="2026-08"><td>2026-08</td><td>$75.0</td><td>$20.5</td><td>$54.5</td><td>12.2%</td><td class="up">+$2.6</td><td class="">+0.0 pts</td><td>$662.6</td><td class="met">Met +$14.5M</td></tr>
+<tr data-month="2026-09"><td>2026-09</td><td>$78.6</td><td>$21.3</td><td>$57.3</td><td>12.5%</td><td class="up">+$2.8</td><td class="up">+0.2 pts</td><td>$719.9</td><td class="met">Met +$17.3M</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <section id="formulas">
+    <h2 class="section">Formulas and conventions</h2>
+    <ul>
+      <li><strong>Capex sign convention:</strong> Capex is recorded as a positive cash outflow (spend). Free cash flow = operating cash flow − |capex|. Absolute value is applied so a negative (filing-style) capex still uses the same formula.</li>
+      <li><strong>Free cash flow:</strong> FCF = OCF − |capex|</li>
+      <li><strong>FCF margin:</strong> FCF margin = free cash flow ÷ revenue. Returns null when revenue is zero, missing, or non-finite so the result is never NaN or Infinity.</li>
+      <li><strong>MoM change:</strong> current − previous. Percent change uses |previous| as the denominator and returns null when previous is zero.</li>
+      <li><strong>Cumulative FCF:</strong> running sum of monthly free cash flow.</li>
+      <li><strong>Target comparison:</strong> actual − target; a month meets the FCF target when actual ≥ target ($40.0M FCF, 10.0% margin).</li>
+    </ul>
+    <p class="note">9 of 18 months met the FCF target. Null, empty, or non-finite inputs return null rather than NaN or Infinity.</p>
+  </section>
+
+  <p id="js-hint" class="js-only note"></p>
+
+  <footer>
+    <p>Static first-paint HTML — no JavaScript required to read OCF, capex, FCF, margin, or cumulative FCF. Re-render with <code>node scripts/render-static.js</code>.</p>
+  </footer>
+  <script src="js/fcf.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
